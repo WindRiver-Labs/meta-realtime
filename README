@@ -1,0 +1,34 @@
+meta-realtime
+=============
+
+This layer is intended to be a central point for realtime related kernel and
+system development. It also contains utilities, and configuration useful for
+tuning a realtime system. It should be useful directly on top of oe-core.  It
+should be primarily useful to the following groups:
+
+      - Anyone working on Linux kernel realtime development (preempt-rt, 
+        sched_dealine, posix realtime).
+
+      - Anyone experimenting with alternative pairing of general purpose 
+        OSs and realtime OS divisions. Whether that be AMP, userspace RTOS
+        or realtime hypervisors.
+
+      - Anyone working on cpu isolation, system partitioning and related userspace
+        applications.
+
+      - Anyone benchmarking and performance profiling a Linux system.
+
+Dependencies
+------------
+
+This layer depends on:
+
+URI: git://git.openembedded.org/openembedded-core
+branch: master
+revision: HEAD
+
+Maintenance
+-----------
+
+Please see the MAINTAINERS file for information on contacting the
+maintainers of this layer, as well as instructions for submitting patches. 

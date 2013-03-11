@@ -1,0 +1,31 @@
+This file contains a list of maintainers for the meta-realtime layer.
+
+Please submit any patches against meta-realtime to the linux yocto
+development mailing list (linux-yocto@yoctoproject.org) with
+'[meta-realtime]' in the subject.
+
+When sending single patches, please use something like:
+
+   git send-email -1 \
+        --to linux-yocto@yoctoproject.org \
+        --subject-prefix=meta-realtime][PATCH
+
+You may also contact the maintainers directly.
+
+Descriptions of section entries:
+
+        M: Mail patches to: FullName <address@domain>
+        F: Files and directories with wildcard patterns.
+           A trailing slash includes all files and subdirectory files.
+           F: recipes-kernel/    all files in and below recipes-kernel
+           F: recipes-devtools/*    all files in recipes-devtools, but not below
+           One pattern per line.  Multiple F: lines acceptable.
+
+Please keep this list in alphabetical order.
+
+Maintainers List (try to look for most precise areas first)
+
+COMMON
+M:      Bruce Ashfield <bruce.ashfield@windriver.com>
+F:      conf
+F:      recipes-*
