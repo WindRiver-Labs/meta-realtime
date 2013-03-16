@@ -1,0 +1,26 @@
+From 041b2b65889c44c47f90313c5bf9ce61effa96df Mon Sep 17 00:00:00 2001
+From: Insop Song <insop.song@gmail.com>
+Date: Sat, 9 Mar 2013 01:23:24 -0800
+Subject: [PATCH] set "--with-deadline" as a default to go around yocto build
+ error on deadline enabled
+
+---
+ configure.ac |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/configure.ac b/configure.ac
+index a5e2990..64e57e4 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -34,7 +34,7 @@ AC_ARG_WITH([deadline],
+ 	[AS_HELP_STRING([--with-deadline], 
+          [Add support for SCHED_DEADLINE])],
+ 	[],
+-	[with_deadline=no])
++	[with_deadline=yes])
+ 
+ AS_IF([test "x$with_deadline" != xno],
+ 	[AC_DEFINE([DLSCHED], [1], [Define if you have SCHED_DEADLINE support])
+-- 
+1.7.9.5
+
