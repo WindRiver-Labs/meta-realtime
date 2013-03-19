@@ -1,6 +1,6 @@
-meta-virtualization: docs
-=========================
+meta-realtime: docs
+===================
 
-The docs subdirectory is a holding tank for meta-virtualization related
+The docs subdirectory is a holding tank for meta-realtime related
 READMEs, documentation, testing information, configuration and other 
-notes that help the users of meta-virt.
+notes that help the users of meta-realtime.
