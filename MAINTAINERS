@@ -1,13 +1,13 @@
 This file contains a list of maintainers for the meta-realtime layer.
 
 Please submit any patches against meta-realtime to the linux yocto
-development mailing list (linux-yocto@yoctoproject.org) with
+development mailing list (linux-yocto@lists.yoctoproject.org) with
 '[meta-realtime]' in the subject.
 
 When sending single patches, please use something like:
 
    git send-email -1 \
-        --to linux-yocto@yoctoproject.org \
+        --to linux-yocto@lists.yoctoproject.org \
         --subject-prefix=meta-realtime][PATCH
 
 You may also contact the maintainers directly.
